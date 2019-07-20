@@ -1,0 +1,28 @@
+{
+  "name": "line-echoback-bot",
+  "version": "1.0.0",
+  "description": "node.js sample for LINE Message REST API ",
+  "scripts": {
+    "start": "node ./echoback_bot.js"
+  },
+  "keywords": [
+    "LINE",
+    "BOT",
+    "API",
+    "node"
+  ],
+  "dependencies": {
+    "@line/bot-sdk": "^6.8.0",
+    "body-parser": "^1.19.0",
+    "crypt": "0.0.2",
+    "crypto": "0.0.3",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "https": "^1.0.0",
+    "line-msg-api": "^1.0.17",
+    "request": "^2.88.0",
+    "superagent": "^2.3.0"
+  },
+  "main": "echoback_bot.js"
+}

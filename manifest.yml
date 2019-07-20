@@ -1,0 +1,8 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: line-chatbot-masa
+  host: line-chatbot-masa
+  disk_quota: 1024M
